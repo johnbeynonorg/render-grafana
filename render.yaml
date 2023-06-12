@@ -1,3 +1,4 @@
-FROM grafana/grafana-oss
-
-RUN mkdir ~/.ssh && chmod 0700 ~/.ssh
+services:
+  - type: web
+    name: grafana-test
+    env: docker
