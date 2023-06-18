@@ -2,3 +2,7 @@ services:
   - type: web
     name: grafana-test
     env: docker
+    disk:
+      name: grafana-data
+      mountPath: /var/lib/grafana
+      sizeGB: 10
