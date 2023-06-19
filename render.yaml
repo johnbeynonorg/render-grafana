@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: grafana-test
+    name: grafana
     env: docker
     disk:
       name: grafana-data
